@@ -4,10 +4,12 @@ Projekt zrealizowany w ramach zaliczenia przedmiotu Sztuczna Inteligencja.
 Aplikacja jest interaktywnym systemem rekomendacji opartym na algorytmie k-Najbliższych Sąsiadów (k-NN), zaimplementowanym samodzielnie od zera. 
 
 ## Wymagania
+
 - Python 3.12+
 - Menedżer pakietów `uv`
 
 ## Instalacja
+
 1. Sklonuj repozytorium na swój komputer.
 2. Pobierz zbiór danych *Goodreads-books* z serwisu Kaggle: [Link do datasetu](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks)
 3. Wypakowany plik CSV nazwij `books.csv` i umieść go w nowo utworzonym folderze `data/` w głównym katalogu projektu.
@@ -16,10 +18,12 @@ Aplikacja jest interaktywnym systemem rekomendacji opartym na algorytmie k-Najbl
    uv sync
 
 ## Uruchomienie aplikacji
+
 Aby uruchomić interaktywną wyszukiwarkę książek, wpisz w terminalu:
 uv run python -m app.main
 Program poprosi o wpisanie tytułu książki (w języku angielskim, np. hobbit, potter, silence), a następnie wyświetli 5 najbardziej podobnych do niej pozycji na podstawie cech fizycznych i ocen.
 
 ## Uruchomienie testów
+
 Aby zweryfikować poprawność działania rdzenia matematycznego algorytmu, uruchom testy jednostkowe:
 uv run pytest

@@ -1,5 +1,6 @@
 import numpy as np
 
+
 class KNNRecommender:
     def __init__(self, k=5):
         # domyslnie szukamy 5 sasiadow

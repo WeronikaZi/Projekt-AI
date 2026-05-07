@@ -2,6 +2,7 @@ import pandas as pd
 
 from app.knn import KNNRecommender
 
+
 def przygotuj_dane(sciezka):
     # wczytuje dane i olewam zepsute linijki z kaggle
     df = pd.read_csv(sciezka, on_bad_lines="skip")

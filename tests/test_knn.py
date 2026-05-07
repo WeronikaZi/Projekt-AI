@@ -2,6 +2,7 @@ import numpy as np
 
 from app.knn import KNNRecommender
 
+
 def test_inicjalizacji_modelu():
     # Sprawdzamy czy klasa poprawnie zapisuje parametr k
     model = KNNRecommender(k=3)
